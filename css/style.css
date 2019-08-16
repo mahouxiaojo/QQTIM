@@ -1,0 +1,348 @@
+/* css初始化 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "微软雅黑";
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+/* 头部分 */
+header{
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.thd{
+    max-width: 1170px;
+    min-width: 980px;
+    margin: 0 auto;
+    background-color: skyblue;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.thd-l{
+    height: 75px;
+}
+.logo{
+    height: 44px;
+    width: 93px;
+    background: url(../images/imlogo_b.png);
+    float: left;
+    margin-top: 15px;
+}
+.lists li{
+    float: left;
+    line-height: 75px;
+    padding: 0 20px;
+    margin-left: 20px;
+}
+.lists li:first-child{
+    background-color: #12b7f5;
+}
+.lists li:hover{
+    background-color: #12b7f5;
+}
+/* 右半部分 */
+.zhuce a{
+    width: 96px;
+    float: left;
+    padding-top: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background:url(../images/icons.png) no-repeat 0 -244px;
+}
+.zhuce a:hover{
+    background: url(../images/icons.png) no-repeat 0 -284px;
+}
+.geren{
+    margin-top: 15px;
+    font-size: 14px;
+}
+.geren span{
+    padding-right: 15px;;
+}
+.geren p {
+    margin-top: 8px;
+}
+.geren p:hover{
+    text-decoration: underline;
+}
+/* 中间部分 */
+.content{
+    display: block;
+    width: 100%;
+    height: 965px;
+    background: url(../images/tim_bg_1.jpg) no-repeat center center;
+    overflow: hidden;
+}
+.logos{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 110px;
+}
+.download{
+    height: 72px;
+    width: 328px;
+    position: absolute;
+    background: url(../images/btn.png) no-repeat center center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 315px;
+}
+.jieshao{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 450px;
+}
+.doc-j2{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: 650px;
+    overflow: hidden;
+}
+/* 第三个盒子 */
+.brand{
+    width: 100%;
+}
+.brand h1{
+    height: 280px;
+    width: 100%;
+    background-color: #fff;
+    background: url(../images/brand.png) no-repeat center 0;
+}
+/* 第一个背景图 */
+.bg1{
+    width: 100%;
+    height: 600px;
+    background: url(../images/fisrtbg.jpg) no-repeat center 0;
+    background-attachment: fixed; /*背景图片固定定位*/   
+}
+.bg1-cont{
+    height: 584px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+}
+.bg1-cont01{
+    position: absolute;
+    left: 120px;
+    bottom: 0;
+}
+.bg1-cont02{
+    position: absolute;
+    left: 50%;
+    top: 100px;
+}
+.bg1-title{
+    position: absolute;
+    left: 55%;
+    top: 250px;
+    color: #333;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.more{
+    position: absolute;
+    left: 71%;
+    top: 310px;
+}
+.more a{
+    color: #12b7f5;
+}
+.caidan{
+    display: block;
+    width: 293px;
+    height: 46px;
+    position: absolute;
+    bottom: 100px;
+    right: 25%;
+    background: url(../images/qcall_figs.png) no-repeat center;
+    padding-bottom: 15px;
+}
+/* .第三个盒子 */
+.second{
+    width: 100%;
+    height: 600px;
+    background: url(../images/avd.jpg) no-repeat center 0;
+    /* 背景固定定位 */
+    background-attachment: fixed;    
+}
+/* 第四个盒子 */
+.guanggao{
+    width: 100%;
+    height: 584px;
+    background-color: #fff;
+}
+.gg-cont{
+    height: 100%;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+.gg-01{
+    position: absolute;
+    left: 0;
+    top: 20%;
+}
+.gg-title{
+    color: #333;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    position: absolute;
+    top: 250px;
+}
+.gg-more{
+    position: absolute;
+    top: 310px;
+}
+.gg-more a{
+    color: #12b7f5;
+}
+.gg-img{
+    position: absolute;
+    bottom: 100px;
+}
+.pic2{
+    position: absolute;
+    right: -100px;
+    top: 20%;
+}
+/* 第五个盒子 */
+.thirdbg{
+    width: 100%;
+    height: 600px;
+    background: url(../images/blog.jpg) no-repeat center 0;
+    background-attachment: fixed;   
+}
+/* 第六个盒子 */
+.six{
+    width: 100%;
+    height: 584px;
+    background-color: #fff;
+}
+.six-cont{
+    height: 100%;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.six-img01{
+    position: absolute;
+    top: 15%;
+}
+.six-img02{
+    position: absolute;
+    top: 15%;
+    right: 0;
+}
+.six-title{
+    color: #333;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: 250px;
+}
+.six-more{
+    position: absolute;
+    top: 310px;
+    right: 0;
+}
+.six-more a {
+    color: #12b7f5;
+}
+.six-img03{
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
+/* 中间部分完成 */
+/* 页面底部开始 */
+.foot{
+    width: 100%;
+    height: 382px;
+    background-color: #2a2a2a;
+    box-shadow: border-box;
+    padding-top: 20px;
+}
+.link{
+    width: 960px;
+    height: 200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+}
+.link h3{
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.foot-l a{
+    float: left;
+    padding-top: 60px;
+    margin-right: 50px;
+    color: #979797;
+    font-size: 14px;
+    font-weight: normal;
+    background: url(../images/plats1.png) no-repeat 0 0;
+}
+.foot-l a:nth-child(3) {
+    background-position: -105px 0;
+}
+.foot-l a:nth-child(4) {
+    background-position: -210px 0;
+}
+.foot-l a:nth-child(5) {
+    background-position: -326px 0;
+}
+.foot-r{
+    width: 450px;
+    display: flex;
+}
+.foot-r dl{
+    flex: 1;
+}
+.foot-r dl dt{
+    font-size: 16px;
+    color: #979797;
+}
+.foot-r dl dd{
+    font-size: 14px;
+    color: #666;
+}
+.foot-tb{
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
